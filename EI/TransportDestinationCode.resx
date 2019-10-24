@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Data" xml:space="preserve">
+    <value>4900	Abortusklinieken
+0200	Apothekers
+1900	Audiologische centra
+7500	AWBZ gefinancierde thuiszorg, kruiswerk en gezinsverzorging
+1400	Bedrijfsartsen
+8200	Bejaardenoorden
+3100	Bloedbanken
+5600	Consultatiebureaus voor alcohol en drugs
+1800	Dialysecentra
+2100	Dienstenstructuren
+8800	Ergotherapeuten
+5200	Eurotransplant
+0400	Fysiotherapeuten, niet nader gespecificeerd
+4700	Gecombineerde verpleeginrichtingen
+9000	Genezers (niet artsen), niet nader gespecificeerd
+6500	Gezinsvervangende tehuizen
+3700	Gezondheidscentra
+0100	Huisartsen, niet nader gespecificeerd
+2500	Inrichtingen voor psychiatrische deeltijdbehandeling
+2300	Inrichtingen voor revalidatiedagbehandeling
+4000	Instellingen voor auditief gehandicapten
+6000	Instellingen voor dagverpleging voor ouderen
+8600	Instellingen voor maatschappelijke dienstverlening
+3500	Instellingen voor visueel gehandicapten
+7000	Kinderdagverblijven
+5100	Klinisch-genetisch centra
+3300	Kraamcentra
+5000	Laboratoria
+7600	Leveranciers hulpmiddelen, niet nader gespecificeerd
+0500	Logopedisten, niet nader gespecificeerd
+0300	Medisch specialisten, niet nader gespecificeerd
+8700	Mondhygienisten
+8100	Niet erkende zwakzinnigeninrichtingen
+0700	Oefentherapeuten, niet nader gespecificeerd
+9500	Orthopedagogen, niet nader gespecificeerd
+8400	Overige artsen, niet nader gespecificeerd
+4800	Overige instellingen, waaronder 'Het Dorp'
+8300	Overige niet erkende instellingen
+9900	Overigen
+9600	Pedicuren, niet nader gespecificeerd
+9400	Psychologen, niet nader gespecificeerd
+2000	Radiotherapeutische centra
+7200	Regionale instellingen beschermd wonen (RIBW)
+3900	Regionale instellingen voor jeugdtandverzorging
+9905	Retour rit begeleider
+7900	RIAGG's
+9903	Schoolarts
+8900	Schoonheidsspecialisten, niet nader gespecificeerd
+7800	Sociaal pedagogische diensten
+9904	Sportarts
+1200	Tandartsen, algemeen practicus
+1300	Tandartsspecialisten dentomaxillaire orthopaedie
+1100	Tandartsspecialisten mondziekten en kaakchirurgie
+3800	Tandheelkundige centra
+9300	Tandtechnici/tandprothetici
+3400	Trombosediensten
+0800	Verloskundigen, niet nader gespecificeerd
+9901	Verpleeghuisartsen
+4600	Verpleeginrichtingen psycho-geriatrische patienten
+4500	Verpleeginrichtingen somatische zieken
+4200	Verzorgingstehuizen
+2200	Zelfstandige behandelcentra (ZBC)
+9200	Ziekenhuisvervangende thuiszorg (financiering 2e compartiment)
+0602	Ziekenhuizen, academische ziekenhuizen
+0601	Ziekenhuizen, algemene ziekenhuizen
+0603	Ziekenhuizen, astmaklinieken
+0604	Ziekenhuizen, beademingscentra
+0606	Ziekenhuizen, epilepsie-centra
+0608	Ziekenhuizen, kankerklinieken
+0607	Ziekenhuizen, kinderziekenhuizen
+0610	Ziekenhuizen, kraamklinieken
+0628	Ziekenhuizen, multi-categorale ziekenhuizen
+0612	Ziekenhuizen, neurologische klinieken
+0600	Ziekenhuizen, niet nader gespecificeerd
+0613	Ziekenhuizen, oogziekenhuizen
+0614	Ziekenhuizen, orthopaedische klinieken
+0629	Ziekenhuizen, psychiatrische ziekenhuizen
+0615	Ziekenhuizen, reumaklinieken
+0616	Ziekenhuizen, revalidatiecentra
+0621	Ziekenhuizen, sanatoria
+0617	Ziekenhuizen, sanatoria met longkliniek
+3000	Zwakzinnigeninrichtingen</value>
+    <comment>TSV, pasted from source Excel sheet.</comment>
+  </data>
+</root>
